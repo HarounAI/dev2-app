@@ -24,7 +24,7 @@ jobs:
           python-version: '3.13'
       - name: Install dependencies
         run: |
-          python -m conda install -e .
-          python -m conda install -e . [lint]
+          python -m pip install -e .
+          python -m pip install -e . [lint]
       - name: Lint code
         run: ruff check --output-format=github .
