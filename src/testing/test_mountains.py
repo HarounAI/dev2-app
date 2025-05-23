@@ -1,4 +1,4 @@
-import pytest
+
 from dev2il_devops_app.mountains import highest_mountain
 
 def test_highest_mountain():
@@ -11,3 +11,4 @@ def test_highest_mountain():
     assert highest_mountain(mountains) == {
         'name': 'Gr. Priel', 'height': 2515
     }
+    
