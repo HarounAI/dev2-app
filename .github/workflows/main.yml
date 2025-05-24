@@ -52,5 +52,4 @@ jobs:
           python -m install -e .[test]
 
       - name: Test code
-        run: |
-          pytest -v
+        run: pytest -v
